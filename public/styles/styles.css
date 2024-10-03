@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* List of blog posts */
+ul.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual blog post */
+li.post-item {
+    list-style: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog post title */
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Blog post content */
+p {
+    font-size: 1.2em;
+    color: #555;
+}
